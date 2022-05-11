@@ -1,9 +1,9 @@
-site_name: Witcan
+site_name: 小艾的杂货铺
 site_description: .net,java,php,python,docker,web
-site_author: Witcan
+site_author: 艾宇航
 site_url: https://witcan.github.io
 # site_favicon: favicon.ico
-# copyright: Witcan
+copyright: BurningMyself 蜀ICP备15033200号-1
 repo_name: 'witcan.github.io'
 repo_url: 'https://github.com/witcan/witcan.github.io'
 
@@ -25,11 +25,8 @@ theme:
 
 nav:
   - 介绍: index.md
-  - 技术博文:
-    - Ruby:
-        - Docker 容器化部署 ASP.NET Core: net/c_sqlserver_nginx.md
-        - 让你的ASP.NET Core应用程序更安全: net/c_core_safety.md
-        - ASP.NET Core开发者指南: net/c_core_study_route.md
+  - 情感:
+    - 工作心得: emotion/workheart.md
 
 markdown_extensions:
   - admonition
@@ -63,3 +60,18 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tasklist
   - pymdownx.tilde
+extra_css:
+  - 'stylesheets/extra.css'
+# extra:
+#     version: 1.0
+#     search:
+#         language: 'zh,en,ja'
+#         tokenizer: '[\ s \-\ .. +'
+#     palette:
+#         primary: 'Blue Grey'
+#         accent: 'Pink'
+#     social:
+#     - type: 'github'
+#       link: 'https://github.com/burningmyself'
+#     - type: 'google'
+#       link: 'https://gitee.com/burningmyself'
