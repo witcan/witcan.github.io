@@ -1,9 +1,8 @@
-name: ci 
+name: deploy
 on:
   push:
     branches:
-      - master 
-      - main
+      - master
 jobs:
   deploy:
     runs-on: ubuntu-latest
