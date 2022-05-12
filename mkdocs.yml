@@ -2,15 +2,15 @@ site_name: 小艾的杂货铺
 site_description: .net,java,php,python,docker,web
 site_author: 艾宇航
 site_url: https://witcan.github.io
-# site_favicon: favicon.ico
-copyright: BurningMyself 蜀ICP备15033200号-1
+# site_favicon: assets/images/logo.png
 repo_name: 'witcan.github.io'
 repo_url: 'https://github.com/witcan/witcan.github.io'
 
 theme:
     name: material
     highlightjs: true
-    favicon: favicon.ico
+    # logo: assets/images/favicon.png
+    # favicon: assets/images/logo.png
     language: 'zh'
     feature:
         tabs: false
@@ -61,7 +61,7 @@ markdown_extensions:
   - pymdownx.tasklist
   - pymdownx.tilde
 extra_css:
-  - 'stylesheets/extra.css'
+  - 'assets/stylesheets/extra.css'
 # extra:
 #     version: 1.0
 #     search:
