@@ -27,7 +27,9 @@ nav:
   - 介绍: index.md
   - 情感:
     - 工作心得: emotion/workheart.md
-
+  - 数据库:
+    - 表管理: mysql/20220622.md
+    - 数据管理: mysql/20220623.md
 markdown_extensions:
   - admonition
   - codehilite:
