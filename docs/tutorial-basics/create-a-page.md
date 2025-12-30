@@ -10,6 +10,8 @@ Add **Markdown or React** files to `src/pages` to create a **standalone page**:
 - `src/pages/foo.md` → `localhost:3000/foo`
 - `src/pages/foo/bar.js` → `localhost:3000/foo/bar`
 
+## 你好
+
 ![](/img/aaa.png)
 
 ## Create your first React Page
